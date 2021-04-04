@@ -10,13 +10,13 @@ export const links = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xcB31558b2CF2A20465C37899f3cB635dd30e0e31',
         external: true,
       },
       {
         label: 'Liquidity',
         href:
-          'https://exchange.pancakeswap.finance/#/add/BNB/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+          'https://exchange.pancakeswap.finance/#/add/BNB/0xcB31558b2CF2A20465C37899f3cB635dd30e0e31',
         external: true,
       },
     ],
@@ -42,7 +42,7 @@ export const links = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+        href: 'https://pancakeswap.info/token/0xcB31558b2CF2A20465C37899f3cB635dd30e0e31',
         external: true,
       },
     ],
@@ -56,7 +56,7 @@ export const links = [
   {
     label: 'Blog',
     icon: 'MediumIcon',
-    href: 'https://blizzardmoney.medium.com',
+    href: 'https://fairyfinancial.medium.com',
     external: true,
   },
 ];

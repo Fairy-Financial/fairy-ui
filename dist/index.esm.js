@@ -2173,12 +2173,12 @@ var links = [
         items: [
             {
                 label: 'Exchange',
-                href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+                href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xcB31558b2CF2A20465C37899f3cB635dd30e0e31',
                 external: true,
             },
             {
                 label: 'Liquidity',
-                href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+                href: 'https://exchange.pancakeswap.finance/#/add/BNB/0xcB31558b2CF2A20465C37899f3cB635dd30e0e31',
                 external: true,
             },
         ],
@@ -2204,7 +2204,7 @@ var links = [
         items: [
             {
                 label: 'PancakeSwap',
-                href: 'https://pancakeswap.info/token/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+                href: 'https://pancakeswap.info/token/0xcB31558b2CF2A20465C37899f3cB635dd30e0e31',
                 external: true,
             },
         ],
@@ -2218,7 +2218,7 @@ var links = [
     {
         label: 'Blog',
         icon: 'MediumIcon',
-        href: 'https://blizzardmoney.medium.com',
+        href: 'https://fairyfinancial.medium.com',
         external: true,
     },
 ];
@@ -2345,7 +2345,7 @@ var templateObject_1$a;
 var PriceLink = styled.a(templateObject_1$9 || (templateObject_1$9 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  svg {\n    transition: transform 0.3s;\n  }\n  :hover {\n    svg {\n      transform: scale(1.2);\n    }\n  }\n"])));
 var CakePrice = function (_a) {
     var cakePriceUsd = _a.cakePriceUsd;
-    return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0", target: "_blank" },
+    return cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0xcB31558b2CF2A20465C37899f3cB635dd30e0e31", target: "_blank" },
         React.createElement(Icon$H, { width: "24px", mr: "8px" }),
         React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }));
 };
@@ -2836,8 +2836,8 @@ var templateObject_1;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#f7d9d9",
-    primaryBright: "#f4abc4",
+    primary: "#ffb4f0",
+    primaryBright: "#ffabc4",
     primaryDark: "#ff9292",
     secondary: "#ffb4b4",
     success: "#31D0AA",
@@ -2849,7 +2849,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#f9f3f3", backgroundDisabled: "#dddddd", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", inputSecondary: "#efbbcf", tertiary: "#EFF4F5", text: "#c3aed6", textDisabled: "#828b93", textSubtle: "#8675a9", borderColor: "#98a3ac", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#f4abc4", background: "#060930", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", inputSecondary: "#66578D", primaryDark: "#595b83", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#333456", textSubtle: "#A28BD4", borderColor: "#060930", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#f4abc4", background: "#8675a9", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", inputSecondary: "#66578D", primaryDark: "#595b83", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#333456", textSubtle: "#A28BD4", borderColor: "#060930", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
